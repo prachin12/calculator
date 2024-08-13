@@ -1,0 +1,58 @@
+
+.container{
+    background-color: gray;
+    width:500px;
+    height:400px;
+    margin:auto;
+    border: 6px black solid;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.btholder{
+    display: flex;
+}
+.btholder div{
+  flex:1;
+    background-color: gold;
+    border:2px solid black;
+    height:50px;
+    margin:3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    background-color: lightgray;
+    border:5px solid dimgray;
+    width:96.5%;
+    height:80px;
+    margin: 4px;
+}
+.separate{
+display: flex;
+}
+
+.separate div{
+    background-color: gold;
+    border:2px solid black;
+    height:50px;
+    margin:3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.separate .zero{
+    flex:2.1;
+}
+.equal, .dot{
+    flex:1;
+}
+
+.btholder, .separate:hover{
+    cursor: pointer;
+}
