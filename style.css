@@ -27,6 +27,9 @@
     align-items: center;
 }
 .display{
+    display: flex;
+    font-size: 50px;
+    align-items: center;
     background-color: lightgray;
     border:5px solid dimgray;
     width:96.5%;
